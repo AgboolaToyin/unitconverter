@@ -1,0 +1,141 @@
+<!Doctype HTML>
+<p id="mm"></p>
+<script> 
+function toCelsius(f){
+return(5/9)*(f-32);
+}document.getElementById("mm").innerHTML=toCelsius(77);
+</script>
+<label>Convert Fahrenheit to Celsius</label><br>
+<input type="text" placeholder="Enter Fahrenheit" oninput="Temp(this.value)"> <br>
+Celsius: <span id="TempC"></span>
+<script>
+function Temp(C){
+document.getElementById("TempC").innerHTML=(C-32)/1.8;
+}
+</script>
+
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:red; width:120px; height: 20px; padding: 40px;">Hello</div>
+<script>
+function mOver(Over) {
+Over.innerHTML="Okay";
+}
+function mOut(Out) {
+Out.innerHTML="Good";
+}
+</script><br>
+<style>
+
+#ry{
+	background-color:blue;
+	border-bottom-width: 500px;
+	height:55px;
+	width: 200px;
+	}
+</style>
+
+<label id="ry">Convert Celsius to Fahrenheit</label><br>
+<input type="text" placeholder="Enter Celsius" oninput="Hemp(this.value)"> <br>
+Fahrenheit: <span id="HempF"></span>
+<script>
+function Hemp(F){
+document.getElementById("HempF").innerHTML=(F*1.8)+32;
+}
+</script><br>
+<center>
+<label id="ry">Convert Feet to Cm</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Ese(this.value)"><br>
+Cm: <span id="EseS"></span>
+<script>
+function Ese(S){
+document.getElementById("EseS").innerHTML=(S*30.48);
+}
+</script><br>
+
+<label id="ry">Convert Feet to Inches</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Eses(this.value)"><br>
+Cm: <span id="EsesS"></span>
+<script>
+function Eses(S){
+document.getElementById("EsesS").innerHTML=(S*12);
+}
+</script><br>
+
+<label id="ry">Convert Feet to Mm</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Esess(this.value)"><br>
+Cm: <span id="EsessS"></span>
+<script>
+function Esess(S){
+document.getElementById("EsessS").innerHTML=(S*304.8);
+}
+</script><br>
+
+<label id="ry">Convert Feet to Km</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Esesss(this.value)"><br>
+Cm: <span id="EsesssS"></span>
+<script>
+function Esesss(S){
+document.getElementById("EsesssS").innerHTML=(S/3281);
+}
+</script><br>
+
+<label id="ry">Convert Feet to M</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Esessss(this.value)"><br>
+Cm: <span id="EsessssS"></span>
+<script>
+function Esessss(S){
+document.getElementById("EsessssS").innerHTML=(S*3.281);
+}
+</script><br>
+<hr>
+
+<label id="ry">Convert Cm to Feet</label><BR>
+<input type="text" placeholder="Enter Cm" oninput="Iru(this.value)"><br>
+Feet: <span id="IruD"></span>
+<script>
+function Iru(D){
+document.getElementById("IruD").innerHTML=(D*0.032808);
+}
+</script><br>
+
+<label id="ry">Convert Cm to Inches</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Iruu(this.value)"><br>
+Cm: <span id="IruuD"></span>
+<script>
+function Iruu(D){
+document.getElementById("IruuD").innerHTML=(D*0.39370);
+}
+</script><br>
+
+<label id="ry">Convert Cm to Mm</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Iruuu(this.value)"><br>
+Cm: <span id="IruuuD"></span>
+<script>
+function Iruuu(D){
+document.getElementById("IruuuD").innerHTML=(D*10);
+}
+</script><br>
+
+<label id="ry">Convert Cm to Km</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Iruuuu(this.value)"><br>
+Cm: <span id="IruuuuD"></span>
+<script>
+function Iruuuu(D){
+document.getElementById("IruuuuD").innerHTML=(D/100000);
+}
+</script><br>
+
+<label id="ry">Convert Cm to M</label><BR>
+<input type="text" placeholder="Enter Feet" oninput="Iruuuuu(this.value)"><br>
+Cm: <span id="IruuuuuD"></span>
+<script>
+function Iruuuuu(D){
+document.getElementById("IruuuuuD").innerHTML=(D/100);
+}
+</script>
+
+</center>
+
+
+
+</html>
